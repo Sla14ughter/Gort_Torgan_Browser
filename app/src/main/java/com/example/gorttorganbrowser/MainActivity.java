@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         if(!req.contains("https://")){
             req = "https://" + req;
         }
+        edt.setText(req);
         web.loadUrl(req);
     }
 }
